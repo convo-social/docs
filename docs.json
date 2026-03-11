@@ -2,6 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Convo Docs",
+  "description": "Documentation for Convo — the AI-moderated focus group platform.",
   "colors": {
     "primary": "#c44b25",
     "light": "#e87b5d",
