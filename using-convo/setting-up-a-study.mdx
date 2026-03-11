@@ -1,0 +1,141 @@
+---
+title: Setting Up a Study
+description: Design your discussion guide, screener, and interview settings using the AI Study Builder or the manual editor.
+---
+
+Every Convo study has three parts: a **discussion guide** (the topics your AI moderator will cover), a **screener** (to qualify participants), and **interview settings** (duration, group size, and welcome screen). You can build everything using the AI Study Builder or the manual editor.
+
+## AI Study Builder
+
+The fastest way to create a study. Describe your research goals in plain language and Convo generates a complete study for you.
+
+<Frame>
+  [IMAGE: The AI Study Builder chat interface showing the step-by-step conversation flow]
+</Frame>
+
+The builder walks you through five steps:
+
+<Steps>
+  <Step title="Describe your research">
+    Tell Convo what you want to learn. You can type a description or upload an existing discussion guide.
+  </Step>
+  <Step title="Review the discussion guide">
+    Convo generates a discussion guide with topics, questions, and follow-up probes. Review and edit as needed.
+  </Step>
+  <Step title="Set up your screener">
+    Convo suggests screener questions based on your research goals. Add, remove, or edit questions.
+  </Step>
+  <Step title="Configure settings">
+    Set the session duration, number of participants per session, and customize the welcome screen.
+  </Step>
+  <Step title="Launch">
+    Review everything and activate your study. You are ready to recruit.
+  </Step>
+</Steps>
+
+<Tip>
+  You can upload an existing discussion guide (PDF or text) and Convo will convert it into the structured format automatically.
+</Tip>
+
+## Manual editor
+
+Prefer full control? The manual editor lets you build each component using a form-based interface.
+
+<Frame>
+  [IMAGE: The manual study editor showing the form-based discussion guide builder]
+</Frame>
+
+---
+
+## Discussion guide
+
+The discussion guide is the script Peggy follows during sessions. It is organized into **moments** -- the individual topics or questions you want to cover.
+
+### Moments
+
+Each moment in your guide has:
+
+- **Topic** -- The subject Peggy will discuss with participants
+- **Goal** -- What you want to learn from this moment
+- **Priority** -- Low, Medium, or High. High-priority moments get more time if sessions run long.
+- **Probes** -- Follow-up questions Peggy can use to dig deeper
+- **Stimulus** -- Optional images, videos, or other media to show participants during this moment
+
+<Frame>
+  [IMAGE: A single moment configuration showing topic, goal, priority, probes, and stimulus fields]
+</Frame>
+
+You can reorder moments by dragging them. Peggy will work through them in order but may adapt the flow based on how the conversation develops.
+
+<Info>
+  Set your most important topics to **High priority**. If a session runs long, Peggy will spend less time on lower-priority moments to ensure high-priority ones get covered.
+</Info>
+
+### Stimulus
+
+You can attach stimulus materials to any moment. When Peggy reaches that moment, the stimulus is shown to all participants automatically.
+
+Supported formats include images (PNG, JPG, GIF), videos, and URLs. Upload files directly in the moment editor.
+
+---
+
+## Screener
+
+The screener filters participants before they join your study. Only participants who pass the screener become eligible for sessions.
+
+<Frame>
+  [IMAGE: The screener builder showing different question types and disqualification options]
+</Frame>
+
+### Question types
+
+- **Multiple choice** -- Single or multi-select options
+- **Open text** -- Free-form text responses
+- **Number** -- Numeric input with optional range validation
+- **Yes/No** -- Simple binary questions
+
+### Disqualification
+
+For any question, you can mark specific answers as disqualifying. Participants who select a disqualifying answer are screened out and will not be able to join sessions.
+
+<Tip>
+  Add an attention-check question to your screener (e.g., "Select the third option") to filter out participants who are not reading carefully.
+</Tip>
+
+---
+
+## Interview settings
+
+Configure how your sessions run:
+
+- **Duration** -- How long each session should last (e.g., 30, 45, or 60 minutes)
+- **Group size** -- Number of participants per session. Convo supports multi-participant focus groups.
+- **Welcome screen** -- Customize the message participants see before the session begins
+
+---
+
+## Study lifecycle
+
+Every study moves through four stages:
+
+| Status | Description |
+|--------|-------------|
+| **Draft** | Study is being designed. You can edit everything freely. |
+| **Active** | Study is live. Participants can join and sessions can run. |
+| **Completed** | All sessions are done. Results are available. |
+| **Archived** | Study is stored for reference but no longer active. |
+
+<Warning>
+  Once a study is Active, some settings (like the screener) cannot be changed without affecting data consistency. Make sure your screener is finalized before launching.
+</Warning>
+
+## What's next
+
+<CardGroup cols={2}>
+  <Card title="Recruiting participants" icon="user-plus" href="/using-convo/recruiting-participants">
+    Learn how to get participants into your study using panels or your own list.
+  </Card>
+  <Card title="Live sessions" icon="video" href="/using-convo/live-sessions">
+    Understand what happens when Peggy runs a session.
+  </Card>
+</CardGroup>
