@@ -41,7 +41,7 @@
               "results/summary",
               "results/deep-dive-and-responses",
               "results/themes",
-              "results/clips-and-trailer",
+              "results/video-clips",
               "results/explore"
             ]
           }
@@ -61,7 +61,7 @@
       "anchors": [
         {
           "anchor": "App",
-          "href": "https://app.useconvo.ai",
+          "href": "https://www.convo.build",
           "icon": "arrow-up-right-from-square"
         }
       ]
@@ -77,7 +77,7 @@
     "primary": {
       "type": "button",
       "label": "Open App",
-      "href": "https://app.useconvo.ai"
+      "href": "https://www.convo.build"
     }
   },
   "footer": {
