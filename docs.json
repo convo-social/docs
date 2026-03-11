@@ -61,7 +61,7 @@
       "anchors": [
         {
           "anchor": "App",
-          "href": "https://www.convo.build",
+          "href": "https://convo.build",
           "icon": "arrow-up-right-from-square"
         }
       ]
@@ -77,7 +77,7 @@
     "primary": {
       "type": "button",
       "label": "Open App",
-      "href": "https://www.convo.build"
+      "href": "https://convo.build"
     }
   },
   "footer": {
