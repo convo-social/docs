@@ -27,21 +27,19 @@
             "pages": ["introduction", "quickstart"]
           },
           {
-            "group": "Using Convo",
+            "group": "Your Study",
             "pages": [
-              "using-convo/setting-up-a-study",
-              "using-convo/recruiting-participants",
-              "using-convo/live-sessions",
-              "using-convo/analysis"
+              "study/creating-a-study",
+              "study/discussion-guides",
+              "study/stimulus",
+              "study/screeners",
+              "study/recruiting-and-sessions"
             ]
           },
           {
-            "group": "Results",
+            "group": "Your Results",
             "pages": [
-              "results/summary",
-              "results/deep-dive-and-responses",
-              "results/themes",
-              "results/video-clips",
+              "results/what-you-get",
               "results/explore"
             ]
           }
