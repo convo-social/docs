@@ -33,13 +33,18 @@
               "study/discussion-guides",
               "study/stimulus",
               "study/screeners",
-              "study/recruiting-and-sessions"
+              "study/recruiting-and-sessions",
+              "study/study-review"
             ]
           },
           {
             "group": "Your Results",
             "pages": [
               "results/what-you-get",
+              "results/summary",
+              "results/deep-dive",
+              "results/themes",
+              "results/video-clips",
               "results/explore"
             ]
           }
