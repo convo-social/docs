@@ -12,7 +12,7 @@
     "light": "#faf8f5",
     "dark": "#1a1a1a"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/convo1.svg",
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
